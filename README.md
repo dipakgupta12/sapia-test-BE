@@ -40,3 +40,9 @@ Before you begin, ensure you have the following installed:
 ### testing 
     npm test
 
+### env 
+    create env file put this varables 
+    MONGODB_URL= mongodb://localhost:27017/sapiadb;
+    JWT_SECRET_KEY= "TEST_SAPIA"
+    PORT= 8000;
+

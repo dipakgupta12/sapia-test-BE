@@ -5,10 +5,11 @@ services:
     ports:
       - "8000:8000"
     environment:
-      MONGO_URI: mongodb://mongo:27017/spaiadb
+      MONGODB_URL: mongodb://mongo:27017/spaiadb
     depends_on:
       - mongo
   mongo:
     image: mongo:latest
     ports:
-      - "27017:27017"
+      - "27018:27017"
+ 
